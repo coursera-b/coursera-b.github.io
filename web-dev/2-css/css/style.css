@@ -1,6 +1,6 @@
 body {
   font-family: Garamond, Georgia, serif;
-  font-size: 150%;
+  font-size: 130%;
 }
 
 header {
@@ -13,7 +13,7 @@ nav {
 
 main {
   background: #42f2f5;
-  font-size: 130%;
+  font-size: 110%;
 }
 
 footer {
@@ -28,7 +28,7 @@ li {
 h1 {
   text-align: center;
   font-family: Verdana, Arial, monospace;
-  color: #f5426c;
+  color: #330f4a;
 }
 
 p {
