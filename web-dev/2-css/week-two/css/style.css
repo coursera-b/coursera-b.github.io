@@ -9,6 +9,12 @@ header {
 
 nav {
   background: #42e3f5;
+  display: inline-block;
+  width: 80%;
+}
+
+nav img {
+  width: 10%;
 }
 
 main {
@@ -20,11 +26,6 @@ footer {
   background: #42f5ad;
 }
 
-li {
-  display: inline;
-  width: 500px;
-}
-
 h1 {
   text-align: center;
   font-family: Verdana, Arial, monospace;
@@ -34,4 +35,3 @@ h1 {
 p {
   line-height: 100px;
 }
-
