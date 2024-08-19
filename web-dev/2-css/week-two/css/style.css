@@ -17,6 +17,11 @@ nav img {
   width: 10%;
 }
 
+nav li {
+  display: inline;
+  list-style-type: none;
+}
+
 main {
   background: #42f2f5;
   font-size: 110%;
