@@ -39,9 +39,9 @@ p {
 .grid {
   display: grid;
   grid-template-columns: 40% 40%;
-  justify-content: start;
+  justify-content: space-evenly;
   align-items: center;
-  row-gap: 100px;
+  row-gap: 30px;
 }
 
 .grid img {
