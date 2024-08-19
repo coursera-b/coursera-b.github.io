@@ -42,3 +42,8 @@ p {
   justify-content: start;
   align-content: center;
 }
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
