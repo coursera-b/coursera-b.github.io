@@ -40,7 +40,8 @@ p {
   display: grid;
   grid-template-columns: 40% 40%;
   justify-content: start;
-  align-content: center;
+  align-items: center;
+  row-gap: 100px;
 }
 
 .grid img {
