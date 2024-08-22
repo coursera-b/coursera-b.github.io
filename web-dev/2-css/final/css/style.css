@@ -33,7 +33,7 @@ img {
     padding: 1px;
     margin: 10px;
     opacity: 0.5;
-    width: auto;
+    width: 100%;
 }
 
 img:hover {
@@ -52,7 +52,7 @@ img:hover {
     border: 2px green;
 }
 
-.grid:figure {
+.grid figure {
     font-size: smaller;
     text-align: center;
 }
