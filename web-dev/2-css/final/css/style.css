@@ -34,6 +34,7 @@ img {
     margin: 10px;
     opacity: 0.5;
     width: 100%;
+    border-radius: 10px;
 }
 
 img:hover {
@@ -46,6 +47,7 @@ img:hover {
     grid-template-columns: 40% 40%;
     justify-content: left;
     row-gap: 30px;
+    align-items: center;
 }
 
 .grid:nth-child(2n+3) {
