@@ -19,14 +19,23 @@ nav {
 
 header nav {
     position: fixed;
+    display: inline;
 }
 
 header nav li {
     margin: 20px;
+    style: none;
 }
 
 img {
     border: black 2px;
     padding: 1px;
     margin: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-evenly;
+    row-gap: 30px;
 }
