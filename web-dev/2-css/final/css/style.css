@@ -28,9 +28,15 @@ header nav li {
 }
 
 img {
-    border: black 2px;
+    border: 2px black;
     padding: 1px;
     margin: 10px;
+    opacity: 0.5;
+}
+
+img:hover {
+    border: 5px red;
+    opacity: 1.0;
 }
 
 .grid {
@@ -38,4 +44,8 @@ img {
     grid-template-columns: 40% 40%;
     justify-content: space-evenly;
     row-gap: 30px;
+}
+
+.grid:nth-child(2n+3) {
+    border: 2px green;
 }
