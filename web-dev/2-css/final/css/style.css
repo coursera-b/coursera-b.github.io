@@ -1,11 +1,32 @@
 .skip_main {
-    left:-999px;
-    position:absolute;
-    z-index:-9;
+    left: -999px;
+    position: absolute;
+    z-index: -9;
 }
 
 .skip_main:focus {
+    position: relative;
     left: auto;
     top: auto;
-    z-index:9;
+    z-index: 9;
+}
+
+nav {
+    background: gray;
+    display: flex;
+    border: 1px;
+}
+
+header nav {
+    position: fixed;
+}
+
+header nav li {
+    margin: 20px;
+}
+
+img {
+    border: black 2px;
+    padding: 1px;
+    margin: 10px;
 }
