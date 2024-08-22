@@ -1,1 +1,11 @@
+.skip_main {
+    left:-999px;
+    position:absolute;
+    z-index:-9;
+}
 
+.skip_main:focus {
+    left: auto;
+    top: auto;
+    z-index:9;
+}
