@@ -18,34 +18,39 @@ nav {
 }
 
 header nav {
-    position: fixed;
+    position: sticky;
     display: inline;
 }
 
-header nav li {
+nav li {
     margin: 20px;
     style: none;
 }
 
 img {
-    border: 2px black;
+    border: 2px solid black;
     padding: 1px;
     margin: 10px;
     opacity: 0.5;
 }
 
 img:hover {
-    border: 5px red;
+    border: 5px dotted red;
     opacity: 1.0;
 }
 
 .grid {
     display: grid;
     grid-template-columns: 40% 40%;
-    justify-content: space-evenly;
+    justify-content: left;
     row-gap: 30px;
 }
 
 .grid:nth-child(2n+3) {
     border: 2px green;
+}
+
+.grid:figure {
+    font-size: smaller;
+    text-align: center;
 }
