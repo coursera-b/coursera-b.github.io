@@ -12,19 +12,20 @@
 }
 
 nav {
-    background: gray;
+    background: #03fcd3;
     display: flex;
     border: 1px;
 }
 
 header nav {
+    background: #eaebe4;
     position: sticky;
-    display: inline;
 }
 
 nav li {
     margin: 20px;
-    style: none;
+    display: inline;
+    list-style-type: none;
 }
 
 img {
@@ -32,6 +33,7 @@ img {
     padding: 1px;
     margin: 10px;
     opacity: 0.5;
+    width: auto;
 }
 
 img:hover {
